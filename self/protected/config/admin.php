@@ -28,6 +28,17 @@ return array(
                 ),
             ),
 		),
+		'3' => array(
+			'controller' => 'article',
+			'resource'   => '文章管理',
+			'icon'		 =>	'move',
+            'son'        => array(
+                '1'	=> array(
+                    'action' 	=> 'index',
+                    'resource'	=> '文章列表',
+                ),
+            ),
+		),
 
 	),
 	
